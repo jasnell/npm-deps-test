@@ -1,0 +1,15 @@
+{
+  "name": "npm-deps-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "rm -rf out && mkdir out && node test.js",
+    "clean": "rm -rf out"
+  },
+  "author": "jasnell@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "^2.2.8"
+  }
+}
